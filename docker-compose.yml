@@ -1,0 +1,47 @@
+version: "3.8"
+
+#Establecemos los servicios que tendra el archivo en este caso: mongodb, backend y frontend
+services:
+  mongodb:
+    #Colocamos una imagen predeterminada de mongo de docker Hub
+    image: mongo
+    restart: always
+    #Establecemos los archivos de configuracion de las variables de entorno
+    env_file:
+      - ./env/.env
+    #Exponemos el puerto
+    ports:
+      - 27017:27017
+
+  backend:
+    #Establemos la ruta del backend y el contexto para encontrar el archivo de dockerfile
+    build:
+      context: ./Backend
+    restart: always
+    #Establecemos los puertos
+    ports:
+      - 3000:3000
+    volumes:
+      - ./Backend:/app
+      - /app/node_modules
+    #Las variables de entorno y la dependencia al servicio de mongodb
+    env_file:
+      - ./Backend/.env
+    depends_on:
+      - mongodb
+
+  frontend:
+    #Establecemos el contexto de la carpeta del frontend para encontrar el archivo del dockerfile
+    build:
+      context: ./frontend
+    restart: always
+    ports:
+      - 80:80
+    volumes:
+      - ./frontend/src:/app/src
+    #Establecemos el stdin_open true para tener todos los comandos
+    stdin_open: true
+    tty: true
+    #Dependencia del servicio backend
+    depends_on:
+      - backend
