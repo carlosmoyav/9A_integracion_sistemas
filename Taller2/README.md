@@ -1,27 +1,65 @@
-# AngularNavbar
+# Taller 2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4.
+En este taller use el framework Angular, utilizado como frontend para un trabajo en clase de la materia de modelamiento y simulación
 
-## Development server
+Con el siguiente comando corri el proyecto
+```sh
+docker-compose up -d --build --force-recreate
+```
+<img width="840" alt="4  docker-compose up -d --build =-force-recreate" src="https://user-images.githubusercontent.com/56742341/235850609-16d050c1-2780-44ea-9fab-89f1b84ae50c.png">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+El frontend se ve de esta forma
 
-## Code scaffolding
+<img width="1726" alt="7  pagina web" src="https://user-images.githubusercontent.com/56742341/235850779-9a562082-a025-45a7-b997-83a76d678057.png">
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Si queremos trabajar de forma interactiva debemos usar el siguiente comando:
+```sh
+docker exec -it <container_id> sh
+```
+Dentro de las flechas debemos reemplazarlo con nuestro id del container,
+para eso debemos colocar el siguiente comando
 
-## Build
+```sh
+docker ps
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<img width="1012" alt="9  docker ps" src="https://user-images.githubusercontent.com/56742341/235851620-a9e6fdd4-863d-4a6d-b941-18f4abf83a4a.png">
 
-## Running unit tests
+Una vez hayamos realizado estos pasos, podremos introducir los comandos,
+de esta forma es como si estuvieramos programando desde el host
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Podemos crear servicios con este codigo:
+```sh
+ng generate service miServicio
+```
+<img width="668" alt="10  ng generate" src="https://user-images.githubusercontent.com/56742341/235856392-67cdd64f-49d6-4184-be11-1dfa2867ea21.png">
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Podemos tambien evitar crear una nueva carpeta mientras creamos un nuevo componente con el siguiente comando
+```sh
+ng generate component nuevoComponente –flat
+```
 
-## Further help
+<img width="804" alt="11  ng" src="https://user-images.githubusercontent.com/56742341/235858010-e3a096c2-e4c3-4a5f-a01a-ecc5b216f406.png">
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Aqui se ve que ya se crearon los componentes
+
+<img width="310" alt="12" src="https://user-images.githubusercontent.com/56742341/235858447-dbb14507-056b-4738-a30d-0eee593bda26.png">
+
+Podemos usar el siguiente comando para instalar axios
+```sh
+npm install axios
+```
+<img width="773" alt="13" src="https://user-images.githubusercontent.com/56742341/235859292-6d3a2dfe-8a68-4a71-9cfc-bd760eabacdd.png">
+
+En el package json podemos ver que ya se instalo
+
+<img width="838" alt="14" src="https://user-images.githubusercontent.com/56742341/235860241-e25b24aa-540e-4135-9e1a-ede813c071e0.png">
+
+
+
+
+
+
+
+
