@@ -1,65 +1,41 @@
 # Taller 2
 
-En este taller use el framework Angular, utilizado como frontend para un trabajo en clase de la materia de modelamiento y simulación
+## Funcionalidad 1
 
-Con el siguiente comando corri el proyecto
-```sh
-docker-compose up -d --build --force-recreate
-```
-<img width="840" alt="4  docker-compose up -d --build =-force-recreate" src="https://user-images.githubusercontent.com/56742341/235850609-16d050c1-2780-44ea-9fab-89f1b84ae50c.png">
+<img width="873" alt="Captura de pantalla 2023-05-03 a la(s) 11 12 07" src="https://user-images.githubusercontent.com/56742341/235976056-e0f31ea6-e1af-4d11-b0df-128d29411afd.png">
 
-El frontend se ve de esta forma
+Agregar la dependecia de angular material con el comando ng
 
-<img width="1726" alt="7  pagina web" src="https://user-images.githubusercontent.com/56742341/235850779-9a562082-a025-45a7-b997-83a76d678057.png">
+<img width="372" alt="Captura de pantalla 2023-05-03 a la(s) 11 13 42" src="https://user-images.githubusercontent.com/56742341/235976424-93c87b3f-439e-462e-8d64-dd8476a4e9f4.png">
 
-Si queremos trabajar de forma interactiva debemos usar el siguiente comando:
-```sh
-docker exec -it <container_id> sh
-```
-Dentro de las flechas debemos reemplazarlo con nuestro id del container,
-para eso debemos colocar el siguiente comando
+## Funcionalidad 2
 
-```sh
-docker ps
-```
+Se agrego un comando para agregar Pwa
 
-<img width="1012" alt="9  docker ps" src="https://user-images.githubusercontent.com/56742341/235851620-a9e6fdd4-863d-4a6d-b941-18f4abf83a4a.png">
+<img width="812" alt="Captura de pantalla 2023-05-03 a la(s) 11 21 29" src="https://user-images.githubusercontent.com/56742341/235978504-e796b32a-8324-4e19-afdb-820819a9539f.png">
 
-Una vez hayamos realizado estos pasos, podremos introducir los comandos,
-de esta forma es como si estuvieramos programando desde el host
+## Funcionalidad 3
 
-Podemos crear servicios con este codigo:
-```sh
-ng generate service miServicio
-```
-<img width="668" alt="10  ng generate" src="https://user-images.githubusercontent.com/56742341/235856392-67cdd64f-49d6-4184-be11-1dfa2867ea21.png">
+Se agrego un guard
+<img width="954" alt="Captura de pantalla 2023-05-03 a la(s) 11 25 34" src="https://user-images.githubusercontent.com/56742341/235979403-888b3799-5f31-4c4f-9097-f2b5b3e4be0b.png">
 
+<img width="305" alt="Captura de pantalla 2023-05-03 a la(s) 11 25 39" src="https://user-images.githubusercontent.com/56742341/235979426-addbb604-b315-43a1-bbfd-bbf4c3dba666.png">
 
-Podemos tambien evitar crear una nueva carpeta mientras creamos un nuevo componente con el siguiente comando
-```sh
-ng generate component nuevoComponente –flat
-```
+## Funcionalidad 4
 
-<img width="804" alt="11  ng" src="https://user-images.githubusercontent.com/56742341/235858010-e3a096c2-e4c3-4a5f-a01a-ecc5b216f406.png">
+Se crea un componente en angular llamado Carlos
 
-Aqui se ve que ya se crearon los componentes
+<img width="910" alt="Captura de pantalla 2023-05-03 a la(s) 11 30 35" src="https://user-images.githubusercontent.com/56742341/235980906-81ed3cd8-9849-4723-be76-d0ba3fbc6a65.png">
 
-<img width="310" alt="12" src="https://user-images.githubusercontent.com/56742341/235858447-dbb14507-056b-4738-a30d-0eee593bda26.png">
+<img width="285" alt="Captura de pantalla 2023-05-03 a la(s) 11 30 46" src="https://user-images.githubusercontent.com/56742341/235981022-7982aba6-d6f2-4d36-8bab-a4b70a147b2d.png">
 
-Podemos usar el siguiente comando para instalar axios
-```sh
-npm install axios
-```
-<img width="773" alt="13" src="https://user-images.githubusercontent.com/56742341/235859292-6d3a2dfe-8a68-4a71-9cfc-bd760eabacdd.png">
+<img width="524" alt="image" src="https://user-images.githubusercontent.com/56742341/235981252-b6795690-8928-4095-9a48-058f4ddaff3c.png">
 
-En el package json podemos ver que ya se instalo
-
-<img width="838" alt="14" src="https://user-images.githubusercontent.com/56742341/235860241-e25b24aa-540e-4135-9e1a-ede813c071e0.png">
+<img width="238" alt="image" src="https://user-images.githubusercontent.com/56742341/235981309-a8977ade-34a3-4725-9611-2c6d1a6ac4a3.png">
 
 
+## Funcionalidad 5
+Podemos ver que los cambio se ve reflejado directamente en el codigo
 
-
-
-
-
+<img width="1706" alt="image" src="https://user-images.githubusercontent.com/56742341/235983372-a6bea68b-d50e-4ef3-85e9-f87db28ba691.png">
 
