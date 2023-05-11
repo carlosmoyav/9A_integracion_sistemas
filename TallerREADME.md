@@ -26,3 +26,5 @@ push v2
 ![Screenshot_2023-05-10_at_23 04 37](https://github.com/carlosmoyav/9A_integracion_sistemas/assets/56742341/93fa6592-cc94-4c36-9a99-99eb312330b4)
 
 # 6. Probar localmente la descarga y funcionamiento de dicha imagen publicada con anterioridad.
+<img width="1275" alt="image" src="https://github.com/carlosmoyav/9A_integracion_sistemas/assets/56742341/25a09142-5981-4f9f-84b2-90740dec8455">
+<img width="1085" alt="image" src="https://github.com/carlosmoyav/9A_integracion_sistemas/assets/56742341/3154e900-4d9c-4bc2-bf22-6495b4f0c0cc">
