@@ -7,6 +7,9 @@
 
 ![Screenshot_2023-05-10_at_22 57 26](https://github.com/carlosmoyav/9A_integracion_sistemas/assets/56742341/0ba297c5-0a01-415a-8fba-78455a96f8d8)
 
+![Screenshot_2023-05-10_at_23 02 48](https://github.com/carlosmoyav/9A_integracion_sistemas/assets/56742341/e2fad90b-467a-42de-823b-d7e0a4a8d3f1)
+
+
 # 3. Definir una TAG que permita dockerizar tanto el servicio REST como sus pruebas.
 ## Creacion de la imagen del archivo de docker de test
 <img width="853" alt="image" src="https://github.com/carlosmoyav/9A_integracion_sistemas/assets/56742341/578745f3-7831-4cf1-aba9-489a1d983fe7">
