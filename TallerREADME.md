@@ -5,6 +5,8 @@
 ## Test de prueba unitaria
 <img width="579" alt="Captura de pantalla 2023-05-10 a la(s) 21 54 11" src="https://github.com/carlosmoyav/9A_integracion_sistemas/assets/56742341/d3ee306d-1eee-4b62-8d61-f68d82b17b0b">
 
+![Screenshot_2023-05-10_at_22 57 26](https://github.com/carlosmoyav/9A_integracion_sistemas/assets/56742341/0ba297c5-0a01-415a-8fba-78455a96f8d8)
+
 # 3. Definir una TAG que permita dockerizar tanto el servicio REST como sus pruebas.
 ## Creacion de la imagen del archivo de docker de test
 <img width="853" alt="image" src="https://github.com/carlosmoyav/9A_integracion_sistemas/assets/56742341/578745f3-7831-4cf1-aba9-489a1d983fe7">
